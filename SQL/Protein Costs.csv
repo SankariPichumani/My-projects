@@ -1,0 +1,23 @@
+Protein Source,Cost per 20 Grams of Protein (US Dollars),Cost per package,Total Protein per package (g),Vegetarian? ,Vegan?,Notes
+Skim Milk,$0.65,$4.29/gal,133,T,F,
+Chicken Legs (bone-in),$0.65,$1.95/lb,49,F,F,Price includes bones which are inedible. Chicken legs are generally more fatty as well. 
+Peanuts,$0.68,$3.79/lb,112,T,T,
+Whole Milk,$0.85,$5.19/gal,123,T,F,
+Chicken Breast,$0.86,$5.89/lb,139,F,F,
+Tuna,$0.95,$1.09/can,23,F,F,
+Canned Black Beans,$1.03,$1.29/can,25,T,T,
+Eggs (extra large),$1.12,$4.69/dozen,7,T,F,An extra large egg is estimated at 7 grams of protein per egg. A large egg has 6 grams of protein.
+Cheddar Cheese,$1.14,$3.19/8oz block,56,T,F,
+Extra Firm Tofu,$1.16,$2.49/lb,43,T,T,
+Whey Protein Powder,$1.23,$42.74/tub,696,T,F,
+85/15 beef (15% fat),$1.38,$5.79/lb,84,F,F,
+80/20 beef (20% fat),$1.39,$5.29/lb,76,F,F,
+93/7 beef (7% fat),$1.41,$6.79/lb,96,F,F,
+Egg Whites in a carton,$1.44,$3.59/16oz carton,50,T,F,
+Pork Tenderloin,$1.49,$8.59/22oz package,115,F,F,
+Greek Yogurt,$1.50,$5.99/32oz container,80,T,F,
+Tilapia,$1.65,$7.49/lb,91,F,F,
+String Cheese,$1.66,$4.89/12 pack,84,T,F,
+Ground Turkey,$1.69,$8.09/lb,96,F,F,
+Salmon,$2.35,$10.69/lb,91,F,F,
+Canned Chicken,$3.54,$3.19/4.5oz can,18,F,F,
