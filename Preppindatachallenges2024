@@ -1,1 +1,11 @@
-
+--Week 1 2024 Challenge
+/*split the flight details column into seperate field by date,flight number,from,to,class,price*/
+SELECT 
+    STR_TO_DATE(SUBSTRING_INDEX(flightdetails, '//', 1),'%Y-%m-%d') AS date,
+    substring_index(SUBSTRING_INDEX(flightdetails, '//', 2),'//',- 1) AS flight_no,
+	SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(flightdetails, '//', 3),'//',-1),'-',1) AS from_location,
+    SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(flightdetails, '//', 3),'//',-1),'-',-1) AS to_location,
+	substring_index(SUBSTRING_INDEX(flightdetails, '//', 4),'//',-1) AS class,
+         CAST(SUBSTRING_INDEX(flightdetails, '//', -1) AS DECIMAL(10,2)) AS Price
+           FROM
+    data2024.week1;
