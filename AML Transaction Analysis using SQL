@@ -1,0 +1,7 @@
+Select
+	account_id,
+	transaction_date,
+	customer_id
+from dbo.transactions_sample
+where transaction_type in ('CASH_DEPOSIT', 'CASH_WITHDRAWAL')
+AND transaction_amount>=$15000;
