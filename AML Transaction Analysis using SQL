@@ -1,3 +1,18 @@
+```sql
+SELECT customer_id
+FROM transactions_sample
+WHERE transaction_type = 'CASH_DEPOSIT'
+GROUP BY customer_id
+HAVING 
+    SUM((transaction_amount AS DECIMAL(18,2) > 25000
+    AND COUNT(*) >= 5
+    AND DATEDIFF(DAY, MIN(transaction_date), MAX(transaction_date)) <= 7;
+```sql
+
+
+
+
+/*High Vakue cash Identify accounts that conducted individual cash withdrawals of $15,000 or more.	High-value cash withdrawal detection*/
 Select
 	account_id,
 	transaction_date,
